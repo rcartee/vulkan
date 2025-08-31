@@ -10,7 +10,7 @@ include(cmake/CPM.cmake)
 
 find_package(Vulkan REQUIRED) # CONFIG HINTS "C:/VulkanSDK/1.4.321.1/Lib/cmake"
 
-set(${glfw3_DIR} [C:/GLFW/src])
+set(glfw3_DIR "C:/GLFW/src")
 find_package(glfw3 REQUIRED)
 
 

@@ -335,6 +335,12 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/carter4/Documents/practice/vulkan
@@ -409,6 +415,8 @@ CPM_INDENT:INTERNAL=CPM:
 CPM_PACKAGES:INTERNAL=
 CPM_PACKAGE_LOCK_FILE:INTERNAL=C:/Users/carter4/Documents/practice/vulkan/cpm-package-lock.cmake
 CPM_VERSION:INTERNAL=0.42.0
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding Vulkan
 FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[C:/VulkanSDK/1.4.321.1/Lib/vulkan-1.lib][C:/VulkanSDK/1.4.321.1/include][found components: glslc glslangValidator ][v1.4.321()]
 //ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
