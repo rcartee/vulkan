@@ -1,0 +1,10 @@
+^C:\USERS\CARTER4\DOCUMENTS\PRACTICE\VULKAN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/carter4/Documents/practice/vulkan -BC:/Users/carter4/Documents/practice/vulkan --check-stamp-file C:/Users/carter4/Documents/practice/vulkan/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
